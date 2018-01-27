@@ -2,50 +2,44 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/alecthomas/units"
+  name = "github.com/braintree/manners"
   packages = ["."]
-  revision = "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a"
+  revision = "0b5e6b2c2843f4c83c2a40f96980b09cf4af733c"
+  version = "0.4.0"
+
+[[projects]]
+  name = "github.com/jessevdk/go-flags"
+  packages = ["."]
+  revision = "96dc06278ce32a0e9d957d590bb987c81ee66407"
+  version = "v1.3.0"
 
 [[projects]]
   branch = "master"
-  name = "github.com/google/shlex"
-  packages = ["."]
-  revision = "6f45313302b9c56850fc17f99e40caebce98c716"
+  name = "github.com/kylelemons/go-gypsy"
+  packages = ["yaml"]
+  revision = "08cad365cd28a7fba23bb1e57aa43c5e18ad8bb8"
 
 [[projects]]
-  name = "github.com/nicksnyder/go-i18n"
-  packages = ["i18n","i18n/bundle","i18n/language","i18n/translation"]
-  revision = "0dc1626d56435e9d605a29875701721c54bc9bbd"
-  version = "v1.10.0"
+  name = "gopkg.in/gcfg.v1"
+  packages = [".","scanner","token","types"]
+  revision = "298b7a6a3838f79debfaee8bd3bfb2b8d779e756"
+  version = "v1.2.1"
 
 [[projects]]
-  name = "github.com/pelletier/go-toml"
+  name = "gopkg.in/urfave/cli.v1"
   packages = ["."]
-  revision = "acdc4509485b587f5e675510c4f2c63e90ff68a8"
-  version = "v1.1.0"
+  revision = "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
+  version = "v1.20.0"
 
 [[projects]]
-  name = "gopkg.in/alecthomas/gometalinter.v2"
+  name = "gopkg.in/warnings.v0"
   packages = ["."]
-  revision = "88d47c66988c5a5cb3945925da47c883800a94df"
-  version = "v2.0.3"
-
-[[projects]]
-  branch = "v3-unstable"
-  name = "gopkg.in/alecthomas/kingpin.v3-unstable"
-  packages = ["."]
-  revision = "75c60582c55399763d53eeb59078d63d3616f58c"
-
-[[projects]]
-  branch = "v2"
-  name = "gopkg.in/yaml.v2"
-  packages = ["."]
-  revision = "d670f9405373e636a5a2765eea47fac0c9bc91a4"
+  revision = "ec4a0fea49c7b46c2aeb0b51aac55779c607e52b"
+  version = "v0.1.2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d8c080de64eda989c9ebfd25699a1317877e81cdbd05bbddc87dfe1f52d4da34"
+  inputs-digest = "a235ac3b01ee03c6b42a64c276cea5954b8eb05f4fb11c26a40b92cd6ef21c72"
   solver-name = "gps-cdcl"
   solver-version = 1
